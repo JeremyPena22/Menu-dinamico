@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispensario Médico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">Dispensario Médico Dr. Jeremy Peña</div>
+            <ul>
+                <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="mostrarSeccion('contacto')">Contacto</a></li>
+                <li><a href="#" onclick="mostrarSeccion('informacion')">Más Información</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="contenido activo">
+            <h1>Bienvenido al Dispensario Médico Dr. Jeremy Peña</h1>
+            <p>Ofrecemos servicios médicos de calidad para toda la comunidad. ¡Tu salud es nuestra prioridad!</p>
+            <img src="https://tse4.mm.bing.net/th?id=OIG2._.PzQKXcwhPz1uh0Mo.m&pid=ImgGn" alt="Dispensario Médico">
+        </section>
+        <section id="contacto" class="contenido">
+            <h1>Contacto</h1>
+            <p><strong>Teléfono:</strong> 801-00000006</p>
+            <p><strong>Email:</strong> dispensario@jeremy.edu.do</p>
+            <p><strong>Horario:</strong> Lunes a Viernes, 8:00 AM - 5:00 PM</p>
+        </section>
+        <section id="informacion" class="contenido">
+            <h1>Nuestras Especialidades</h1>
+            <ul>
+                <li>Medicina General</li>
+                <li>Pediatría</li>
+                <li>Ginecología</li>
+                <li>Odontología</li>
+                <li>Otorrinologia</li>
+            </ul>
+            <img src="https://tse2.mm.bing.net/th?id=OIG3.y4VtkeXPClmNTLSfeJI_&pid=ImgGn" alt="Especialidades Médicas">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Nombre: Jeremy Peña. Matricula: GA6575.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
